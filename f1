@@ -8,7 +8,7 @@ var node_service_baseurl='//www.firstcry.com/svcs';
 function utmx_section() { } function utmx() { } (function () { var k = '@gaid', d = document, l = d.location, c = d.cookie; if (l.search.indexOf('utm_expid=' + k) > 0) return; function f(n) { if (c) { var i = c.indexOf(n + '='); if (i > -1) { var j = c.indexOf(';', i); return escape(c.substring(i + n.length + 1, j < 0 ? c.length : j)) } } } var x = f('__utmx'), xx = f('__utmxx'), h = l.hash; d.write('<sc' + 'ript src="' + 'http' + (l.protocol == 'https:' ? 's://ssl' : '://www') + '.google-analytics.com/ga_exp.js?' + 'utmxkey=' + k + '&utmx=' + (x ? x : '') + '&utmxx=' + (xx ? xx : '') + '&utmxtime=' + new Date().valueOf() + (h ? '&utmxhash=' + escape(h.substr(1)) : '') + '" type="text/javascript" charset="utf-8"><\/sc' + 'ript>') })()</script>
 <script>utmx('url', 'A/B');</script>
 <!-- End of Google Analytics Content Experiment code -->    
- 
+ Good to c u !!!
 <script>
 var base_urllogin = 'https://www.firstcry.com/m/login?URL=https://www.firstcry.com/clothes-and-shoes/6/0/0?gender=girl,unisex&sort=bestseller&ref2=menu_dd_catlanding';
 var Addressservice = 'https://CID.fcappservices.in/UserInformation/AddressService.svc';
